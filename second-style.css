@@ -1,0 +1,39 @@
+/* Общие стили страницы */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+/* Выделение текста жирным начертанием */
+strong {
+    font-weight: bold;
+}
+
+/* Стили фрагментов кода/команд терминала */
+.code-block {
+    background-color: #6d757d;
+    padding: 16px;
+    margin-bottom: 16px;
+    font-family: SFMono, monospace;
+    font-size: 0.85em;
+}
+
+/* Цвета текста внутри блока */
+.code-block .command {
+    color: #24292E;
+}
+
+.code-block .argument {
+    color: #009999;
+}
+
+.code-block .comment {
+    color: #999988;
+}
+
+/* Выделение начала каждого логического блока */
+.code-block .logical-block {
+    /* Добавьте стили для выделения */
+}
